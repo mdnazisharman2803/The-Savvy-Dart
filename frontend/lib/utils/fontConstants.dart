@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/utils/colorConstants.dart';
 
-// to be removed!! JUST AN EXAMPLE
 class Fonts {
   static const TextTheme signUpWayTitle = TextTheme(
     headlineLarge: TextStyle(
