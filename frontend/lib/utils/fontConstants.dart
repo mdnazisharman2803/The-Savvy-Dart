@@ -1,57 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/utils/colorConstants.dart';
 
+// to be removed!! JUST AN EXAMPLE
 class Fonts {
-  static const TextTheme signUpWayTitle = TextTheme(
+  static const TextTheme onboardingTitle = TextTheme(
     headlineLarge: TextStyle(
-      fontFamily: "Montserrat",
+      fontFamily: "Titan-One",
+      fontSize: 20.0,
+      fontWeight: FontWeight.w900,
+    ),
+    bodyLarge: TextStyle(
+      fontFamily: "Nunito",
       fontSize: 24.0,
       fontWeight: FontWeight.w900,
-      color: ColorConstants.primaryColor,
     ),
-    headlineSmall: TextStyle(
-      fontFamily: "Roboto-Regular",
-      fontSize: 16.0,
-      fontWeight: FontWeight.w800,
-    ),
-    labelMedium: TextStyle(
-      fontFamily: "Roboto-Bold",
-      fontSize: 24.0,
-      fontWeight: FontWeight.w700,
-      color: ColorConstants.textFieldColor,
-    ),
-    titleSmall: TextStyle(
-      fontFamily: "Roboto-Bold",
-      fontSize: 14.0,
-      fontWeight: FontWeight.w700,
-      color: ColorConstants.textFieldColor,
-    ),
-    labelSmall: TextStyle(
-      fontFamily: "Roboto-Bold",
-      fontSize: 14.0,
-      fontWeight: FontWeight.w700,
-      color: ColorConstants.primaryColor,
-    ),
-  );
-
-  static const TextTheme signUpWayEmailTitle = TextTheme(
-    labelMedium: TextStyle(
-      fontFamily: "Roboto-Bold",
+    bodyMedium: TextStyle(
+      fontFamily: "Nunito-Bold",
       fontSize: 16.0,
       fontWeight: FontWeight.w700,
-      color: ColorConstants.textFieldColor,
-    ),
-    labelSmall: TextStyle(
-      fontFamily: "Roboto-Bold",
-      fontSize: 24.0,
-      fontWeight: FontWeight.w400,
-      color: ColorConstants.textFieldColor,
-    ),
-    titleSmall: TextStyle(
-      fontFamily: "Roboto-Bold",
-      fontSize: 20.0,
-      fontWeight: FontWeight.w400,
-      color: Colors.white,
     ),
   );
 }
