@@ -40,12 +40,16 @@ class SignUpByEmail extends StatelessWidget {
                   itemBuilder: (BuildContext context, int index) {
                     var signUpEmailLists =
                         SignUpWayEmail.signUpEmailLists[index];
+                    // TODO: input validation
                     return SignUpByEmailWidget(
                         signUpEmailLists: signUpEmailLists);
                   },
                 ),
                 const Gap(80),
-                SignUpButton(buttonTitle: "Sign Up"),
+                GestureDetector(
+                  onTap: () {},
+                  child: SignUpButton(buttonTitle: "Sign Up"),
+                ),
                 const Gap(20),
                 PromptUserText(
                   text: "Already have an account? ",
