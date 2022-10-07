@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/screens/signInScreens/signInScreen.dart';
 import 'package:frontend/screens/signUpScreens/signUpByEmail.dart';
 import 'package:frontend/screens/signUpScreens/signUpWayScreen.dart';
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const SignUpWayScreen(),
         '/signUpEmail': (context) => SignUpByEmail(),
+        '/signInEmail': (context) => const SignInScreen(),
       },
     );
   }

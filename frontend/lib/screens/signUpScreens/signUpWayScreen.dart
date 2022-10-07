@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:frontend/services/signUpWayContainer/signUpWayContainer.dart';
 import 'package:frontend/utils/colorConstants.dart';
 import 'package:frontend/utils/fontConstants.dart';
+import 'package:frontend/widgets/signUpwayWidget/promptUserText.dart';
 import 'package:frontend/widgets/signUpwayWidget/signUpContainer.dart';
 import 'package:gap/gap.dart';
 
@@ -39,24 +40,10 @@ class SignUpWayScreen extends StatelessWidget {
                   },
                 ),
                 const Gap(50),
-                RichText(
-                  text: TextSpan(
-                    children: <TextSpan>[
-                      TextSpan(
-                        text: 'Already have an account? ',
-                        style: Fonts.signUpWayTitle.titleSmall,
-                      ),
-                      TextSpan(
-                        recognizer: new TapGestureRecognizer()
-                          ..onTap = () {
-                            Navigator.pushNamed(context, '/signUpEmail');
-                          },
-                        text: 'Sign In',
-                        style: Fonts.signUpWayTitle.labelSmall,
-                      ),
-                    ],
-                  ),
-                )
+                const PromptUserText(
+                    text: "Already have an account? ",
+                    spanText: "Sign In",
+                    moveTo: "/signUpEmail"),
               ],
             ),
           ),

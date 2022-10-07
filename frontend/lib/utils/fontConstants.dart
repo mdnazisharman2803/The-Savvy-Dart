@@ -33,4 +33,25 @@ class Fonts {
       color: ColorConstants.primaryColor,
     ),
   );
+
+  static const TextTheme signUpWayEmailTitle = TextTheme(
+    labelMedium: TextStyle(
+      fontFamily: "Roboto-Bold",
+      fontSize: 16.0,
+      fontWeight: FontWeight.w700,
+      color: ColorConstants.textFieldColor,
+    ),
+    labelSmall: TextStyle(
+      fontFamily: "Roboto-Bold",
+      fontSize: 24.0,
+      fontWeight: FontWeight.w400,
+      color: ColorConstants.textFieldColor,
+    ),
+    titleSmall: TextStyle(
+      fontFamily: "Roboto-Bold",
+      fontSize: 20.0,
+      fontWeight: FontWeight.w400,
+      color: Colors.white,
+    ),
+  );
 }

@@ -68,6 +68,10 @@ flutter:
     - assets/icons/profileIcon.png
     - assets/icons/smallerEmailIcon.png
     - assets/icons/lockIcon.png
+    - assets/icons/eyeIcon.png
+    - assets/icons/bigGoogleIcon.png
+    - assets/icons/bigGithubIcon.png
+    - assets/icons/bigFacebookIcon.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
