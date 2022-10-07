@@ -20,16 +20,18 @@ class SignUpContainer extends StatelessWidget {
               borderRadius: BorderRadius.circular(10),
               color: ColorConstants.containerColor,
             ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset(containers.icon),
-                const Gap(32),
-                Text(
-                  containers.signUpName,
-                  style: Fonts.signUpWayTitle.labelMedium,
-                ),
-              ],
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 56.0),
+              child: Row(
+                children: [
+                  Image.asset(containers.icon),
+                  const Gap(32),
+                  Text(
+                    containers.signUpName,
+                    style: Fonts.signUpWayTitle.labelMedium,
+                  ),
+                ],
+              ),
             ),
           ),
         ),
