@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:frontend/services/signUpWayContainer/signIn.dart';
-import 'package:frontend/services/signUpWayContainer/signUpWayEmail.dart';
 import 'package:frontend/utils/fontConstants.dart';
 import 'package:frontend/widgets/signUpwayWidget/promptUserText.dart';
 import 'package:frontend/widgets/signUpwayWidget/signUpButton.dart';

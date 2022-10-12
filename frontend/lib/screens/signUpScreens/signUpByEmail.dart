@@ -1,11 +1,9 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:frontend/services/signUpWayContainer/signUpWayEmail.dart';
 import 'package:frontend/utils/fontConstants.dart';
 import 'package:frontend/widgets/signUpwayWidget/promptUserText.dart';
 import 'package:frontend/widgets/signUpwayWidget/signUpButton.dart';
 import 'package:frontend/widgets/signUpwayWidget/signUpByEmailWidget.dart';
-import 'package:frontend/widgets/signUpwayWidget/signUpContainer.dart';
 import 'package:gap/gap.dart';
 
 class SignUpByEmail extends StatelessWidget {
@@ -51,7 +49,7 @@ class SignUpByEmail extends StatelessWidget {
                   child: SignUpButton(buttonTitle: "Sign Up"),
                 ),
                 const Gap(20),
-                PromptUserText(
+                const PromptUserText(
                   text: "Already have an account? ",
                   spanText: "Sign In",
                   moveTo: "/signInEmail",

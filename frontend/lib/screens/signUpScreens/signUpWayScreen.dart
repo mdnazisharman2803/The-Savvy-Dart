@@ -1,7 +1,5 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:frontend/services/signUpWayContainer/signUpWayContainer.dart';
-import 'package:frontend/utils/colorConstants.dart';
 import 'package:frontend/utils/fontConstants.dart';
 import 'package:frontend/widgets/signUpwayWidget/promptUserText.dart';
 import 'package:frontend/widgets/signUpwayWidget/signUpContainer.dart';

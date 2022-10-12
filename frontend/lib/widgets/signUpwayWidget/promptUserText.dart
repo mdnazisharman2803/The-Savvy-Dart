@@ -21,7 +21,7 @@ class PromptUserText extends StatelessWidget {
             style: Fonts.signUpWayTitle.titleSmall,
           ),
           TextSpan(
-            recognizer: new TapGestureRecognizer()
+            recognizer: TapGestureRecognizer()
               ..onTap = () {
                 Navigator.pushNamed(context, moveTo);
               },

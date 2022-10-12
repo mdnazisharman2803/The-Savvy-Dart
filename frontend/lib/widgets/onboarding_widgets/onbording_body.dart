@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:frontend/utils/colorConstants.dart';
 import 'package:frontend/utils/fontConstants.dart';
 import 'package:frontend/widgets/onboarding_widgets/onoarding_content.dart';
-import 'package:frontend/widgets/signUpwayWidget/promptUserText.dart';
 import 'package:gap/gap.dart';
 
 import '../../services/onboardingData/onboarding_data.dart';
@@ -44,7 +43,7 @@ class _OnboardingBodyState extends State<OnboardingBody> {
                       : Container(
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(30),
-                              color: Color.fromRGBO(2, 86, 155, 1)),
+                              color: const Color.fromRGBO(2, 86, 155, 1)),
                           width: size / 6,
                           child: InkWell(
                             onTap: () {
