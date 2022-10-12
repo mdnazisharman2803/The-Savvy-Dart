@@ -37,6 +37,7 @@ dependencies:
   equatable: ^2.0.3
   google_fonts: ^3.0.1
   gap: ^2.0.0
+  flutter_svg: ^1.1.5
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +73,9 @@ flutter:
     - assets/icons/bigGoogleIcon.png
     - assets/icons/bigGithubIcon.png
     - assets/icons/bigFacebookIcon.png
+    - assets/svgs/svg1.svg
+    - assets/svgs/svg2.svg
+    - assets/svgs/svg3.svg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

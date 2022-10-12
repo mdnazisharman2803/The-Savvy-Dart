@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:frontend/screens/onboardingScreens/onbording_screen.dart';
 import 'package:frontend/screens/signInScreens/signInScreen.dart';
 import 'package:frontend/screens/signUpScreens/signUpByEmail.dart';
 import 'package:frontend/screens/signUpScreens/signUpWayScreen.dart';
@@ -20,7 +21,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        '/': (context) => const SignUpWayScreen(),
+        '/': (context) => const OnboardingScreen(),
+
+        '/SignUpWayScreen': (context) => const SignUpWayScreen(),
         '/signUpEmail': (context) => SignUpByEmail(),
         '/signInEmail': (context) => const SignInScreen(),
       },
