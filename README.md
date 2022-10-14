@@ -81,6 +81,15 @@ Therefore feel free to contribute if:
 3. you will be documentating the code
 4. you will be working on the server side
 
+## Why contribute?
+- If you find any errors or bugs then please report them by creating an issue. 
+- If you can provide a more efficient solution or implementation of the algorithm then make sure to contribute. 
+- If you want to implement an algorithm, data structure etc.., which is not yet there, then you can open up a PR regarding the same.
+ 
+## Want to contribute?
+- Take a look at [CONTRIBUTING.md](/CONTRIBUTING.md)
+
+
 <h1 align=center> Give a Star if you like the project ⭐ </h1>
 
 <h1 align=center>🛠️ Installation Steps</h1>
