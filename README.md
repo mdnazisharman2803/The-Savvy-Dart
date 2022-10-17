@@ -116,4 +116,26 @@ Therefore feel free to contribute if:
 
 <br>
 
+# FAQs (Frequently Asked Questions)
+
+- Who all can contribute?
+  - Anyone with a github account and who is signed up for
+[hacktoberfest](https://hacktoberfest.digitalocean.com/) :)
+- Are you getting paid for this?
+  - Sadly no. But we think we should. This is 100% unofficial and we do it for fun, fame and glory.
+
+- Why are you using Flutter?
+- Flutter code can run on desktop, mobile, and web platforms. So, you don't need to hire developers for each platform. You need to write the code only once in Flutter and you can rest assured that the app will work across the other platforms.
+
+- Should I come closer to the text saying 'Don't come closer' on the left side of the home tab ?
+  - Nope.
+- How many pull request (PR) must be made, if I want to get an awesome tshirt from Hacktoberfest 2022?
+  - 4
+- How do I track my progress to get an awesome shirt from Hacktoberfest 2022?
+  - [go to :](https://hacktoberfest.digitalocean.com/profile/). (Check Out Your Own Stats at Right Top)
+- What is the duration of Hacktoberfest 2022?
+  - It is from 1st october to 31st october 2022...
+- What is the event for?
+  - For the open source community engagement
+
 If you would like to make a pull request, feel free to take a look at the [CONTRIBUTING.md](/CONTRIBUTING.md)
