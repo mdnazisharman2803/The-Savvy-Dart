@@ -76,10 +76,10 @@ This section contain the images of what the app will look like
 ### Purpose of this project is to implement a playground for developers to practice with Dart and solve Data Structures & Algorithms.
 
 Therefore feel free to contribute if:
-1. you are a beginner, mid or senior level Flutter Developer
-2. you are a designer
-3. you will be documentating the code
-4. you will be working on the server side
+1. You are a beginner, mid or senior level Flutter Developer
+2. You are a designer
+3. You will be documenting the code
+4. You will be working on the server side
 
 ## Why contribute?
 - If you find any errors or bugs then please report them by creating an issue. 
@@ -98,12 +98,13 @@ Therefore feel free to contribute if:
 1. Open Terminal and Clone the Repo
 
 ```bash
-  git clone https://github.com/username/reponame
+  git clone https://github.com/username/The-Savvy-Dart.git
+  
 ```
  2. Cd Over 
  
 ```bash
-   cd reponame
+   cd The-Savvy-Dart.git
 ```
  3. Run Pub
 ```
@@ -116,7 +117,18 @@ Therefore feel free to contribute if:
 
 <br>
 
-# FAQs (Frequently Asked Questions)
+# Features Used
+
+1. Used Block for State Management.
+2. Authenticated credentials stored on backend.
+3. Used Figma to design app.
+4. Used Flutter Project Architecture.
+5. Used Dart Language for fast performance.
+
+
+
+
+# FAQs (Frequently Asked Questions) 
 
 - Who all can contribute?
   - Anyone with a github account and who is signed up for
@@ -129,7 +141,7 @@ Therefore feel free to contribute if:
 
 - Should I come closer to the text saying 'Don't come closer' on the left side of the home tab ?
   - Nope.
-- How many pull request (PR) must be made, if I want to get an awesome tshirt from Hacktoberfest 2022?
+- How many pull request (PR) must be made, if I want to get an awesome T-shirt from Hacktoberfest 2022?
   - 4
 - How do I track my progress to get an awesome shirt from Hacktoberfest 2022?
   - [go to :](https://hacktoberfest.digitalocean.com/profile/). (Check Out Your Own Stats at Right Top)
